@@ -1,21 +1,26 @@
-MIT License
+# Custom Non-Commercial License
 
 Copyright (c) 2026 Radhika Gupta
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is hereby granted to any individual or organization to use, view, copy, modify, and distribute this software and its source code solely for personal, educational, research, and other non-commercial purposes, provided that:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+1. Proper credit is given to the original author, Radhika Gupta.
+2. A copy of this license is included with any redistribution or modification of the software.
+3. Any modified versions must clearly state that changes were made to the original project.
+
+Commercial use of this software is strictly prohibited without prior written permission from the author.
+
+For the purposes of this license, “commercial use” includes, but is not limited to:
+
+* Selling the software or any modified version of it
+* Using the software in paid products or services
+* Monetizing the software through advertisements, subscriptions, sponsorships, or donations directly tied to the software
+* Using the software in a business, startup, or organization for revenue-generating purposes
+
+Any individual or organization seeking commercial usage rights must contact the author, Radhika Gupta, to negotiate a separate commercial agreement, which may include revenue sharing, licensing fees, attribution requirements, or partnership terms.
+
+Unauthorized commercial use of this software may result in legal action.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
