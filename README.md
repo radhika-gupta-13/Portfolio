@@ -76,18 +76,18 @@ It serves as a digital identity that highlights my work in **web development, UI
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio-website.git
+git clone https://github.com/your-username/Portfolio.git
 ```
 
 2. Navigate to the project folder
 
 ```bash
-cd portfolio-website
+cd Portfolio
 ```
 
 3. Open the project
 
-Simply open `index.html` in your browser.
+Simply open `Portfolio.html` in your browser.
 
 ---
 
@@ -121,7 +121,6 @@ Simply open `index.html` in your browser.
 ## 🎯 Future Improvements
 
 * Add backend for contact form
-* Dark/light theme toggle 🌙☀️
 * Add blog section
 * Integrate animations (GSAP / Framer Motion style)
 * Improve SEO optimization
@@ -148,7 +147,7 @@ This portfolio aims to represent my growth as a developer and serve as a central
 
 ## 👩‍💻 Developer
 
-Developed by **Radhika Gupta**
+Developed by **Radhika Gupta 2026**
 
 ---
 
