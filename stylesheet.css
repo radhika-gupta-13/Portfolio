@@ -742,6 +742,7 @@ a {
 .contact-link .fa-github { background: linear-gradient(135deg, #c9d1d9, #6e7681); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .contact-link .fa-kaggle { background: linear-gradient(135deg, #20beff, #0077b5); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .contact-link .fa-award { background: linear-gradient(135deg, #ffb347, #ff7b00); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.contact-link .fa-stack-overflow { background: linear-gradient(135deg, #b6eaf6, #a5ecd8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 .contact-link .fa-envelope { background: linear-gradient(135deg, #ea35d8, #8b17ce); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 .form {
@@ -777,15 +778,12 @@ a {
   padding: 70px 0 35px;
   overflow: hidden;
 
-  background:
-    radial-gradient(circle at top left, rgba(76, 140, 69, 0.15), transparent 35%),
-    radial-gradient(circle at bottom right, rgba(59, 91, 219, 0.12), transparent 35%),
-    linear-gradient(
-      180deg,
-      #0d1117 0%,
-      #0a0f14 35%,
-      #070b10 100%
-    );
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(139, 92, 246, 0.15), transparent 25%),
+    radial-gradient(circle at 80% 10%, rgba(59, 130, 246, 0.12), transparent 22%),
+    radial-gradient(circle at 50% 80%, rgba(217, 70, 239, 0.08), transparent 20%),
+    linear-gradient(180deg, var(--bg-midnight), var(--bg-deep-space));
+  color: var(--text-primary);
 
   border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
