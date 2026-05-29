@@ -125,10 +125,10 @@ a {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  BORDER: 2px solid rgba(255, 255, 255, 0.935);
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, var(--accent-purple), var(--accent-blue));
-  box-shadow: 0 0 25px rgba(139, 92, 246, 0.35);
+  box-shadow: 0 0 25px rgba(213, 201, 240, 0.35);
   color: rgb(233, 234, 241);
   font-size: 1.2rem;
   font-family: 'Algerian', serif; 
@@ -361,8 +361,8 @@ a {
 }
 
 .profile-img:hover {
-  box-shadow: 0 0 60px rgba(230, 25, 210, 0.35);
-  border-color: rgba(230, 25, 210, 0.6);
+  box-shadow: 0 0 60px rgba(125, 50, 146, 0.901);
+  border-color: rgba(208, 125, 243, 0.6);
   cursor: pointer;
 }
 
