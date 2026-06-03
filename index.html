@@ -1054,14 +1054,17 @@
         .forEach((el) => observer.observe(el));
       document.querySelectorAll(".fill").forEach((el) => observer.observe(el));
       
-      fetch("https://api.countapi.xyz/hit/radhikagupta-portfolio/views")
-      .then((response) => response.json())
-      .then((data) => {
-      document.getElementById("visitorCount").textContent = data.value;
+      fetch("https://visitor-badge.laobi.icu/badge?page_id=radhika-gupta-13.Portfolio")
+      .then(response => response.text())
+      .then(data => {
+     
+        const count = data.match(/\d+/g);
+        document.getElementById("visitorCount").textContent =
+        count ? count[count.length - 1] : "0";
       })
-      .catch(() => {
-      document.getElementById("visitorCount").textContent = "--";
-      });
+  .catch(() => {
+    document.getElementById("visitorCount").textContent = "0";
+  });
     </script>
   </body>
 </html>
