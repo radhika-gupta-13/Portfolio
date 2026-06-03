@@ -75,7 +75,7 @@
               ></a>
               <a
                 class="btn btn-secondary"
-                href="https://drive.google.com/file/d/1LKm7A1-4hiy2Oqqc7YiFouFcPAAT8Uwf/view?usp=sharing"
+                href="https://drive.google.com/file/d/1SoOWru0jjfwr5CM5VhD5RXwXNSWmcg66/view?usp=sharing"
                 download
                 ><i class="fa-solid fa-download"></i> Download Resume</a
               >
@@ -97,13 +97,23 @@
 
             <div class="mini-panel">
               <div class="stat">
-                <strong>4+</strong><span>Featured Projects</span>
+                <strong>4+</strong>
+                <span>Featured Projects</span>
               </div>
+
               <div class="stat">
-                <strong>10+</strong><span>Core Skills</span>
+                <strong>10+</strong>
+                <span>Core Skills</span>
               </div>
+
               <div class="stat">
-                <strong>4</strong><span>Certifications</span>
+                <strong>4</strong>
+                <span>Certifications</span>
+              </div>
+
+              <div class="stat">
+                <strong id="visitorCount">0</strong>
+                <span>Visitors</span>
               </div>
             </div>
           </div>
@@ -1043,6 +1053,15 @@
         .querySelectorAll(".reveal")
         .forEach((el) => observer.observe(el));
       document.querySelectorAll(".fill").forEach((el) => observer.observe(el));
+      
+      fetch("https://api.countapi.xyz/hit/radhikagupta-portfolio/views")
+      .then((response) => response.json())
+      .then((data) => {
+      document.getElementById("visitorCount").textContent = data.value;
+      })
+      .catch(() => {
+      document.getElementById("visitorCount").textContent = "--";
+      });
     </script>
   </body>
 </html>
