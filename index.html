@@ -111,10 +111,6 @@
                 <span>Certifications</span>
               </div>
 
-              <div class="stat">
-                <strong id="visitorCount">0</strong>
-                <span>Visitors</span>
-              </div>
             </div>
           </div>
         </div>
@@ -1054,15 +1050,6 @@
         .forEach((el) => observer.observe(el));
       document.querySelectorAll(".fill").forEach((el) => observer.observe(el));
       
-fetch("https://api.countapi.xyz/hit/radhika-gupta-13/portfolio")
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById("visitorCount").textContent = data.value || "0";
-  })
-  .catch(error => {
-    console.error("Error fetching visitor count:", error);
-    document.getElementById("visitorCount").textContent = "1"; // Fallback
-  });
     </script>
   </body>
 </html>
